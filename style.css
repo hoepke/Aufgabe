@@ -1,31 +1,64 @@
-
-h1{
-    margin-top: 40px;
+body {
     text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f8f9fd;
+    color: #343a40;
 }
+
+h1 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
 #content {
-text-align: center;
+    padding: 80px;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    color: #343a40;
 }
- #table{
+
+#myInput {
+    width: 50%;
+    height: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #343a40;
+}
+
+#click {
+    height: 30px;
+    width: 15%;
+    border-radius: 20px;
+    border-color: #343a40;
+    background-color: #99b19c;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+#table {
     opacity: 0;
     transition: opacity 500ms ease;
     border-radius: 10px;
     border-spacing: 0px;
     overflow: hidden;
-    margin:auto;
+    margin: auto;
     margin-bottom: 60px;
-    
-    
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    padding: 30px;
+    border-bottom: 4px;
+    vertical-align: middle;
+    width: 100%;
 }
 
-#table > thead > tr{
-    background-color:grey;
+#table>thead>tr {
+    background-color: #99b19c;
     height: 60px;
     color: white;
-
-
 }
 
 table td {
-    width:100px;
+    width: 100px;
+    height: 40px;
 }
